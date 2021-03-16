@@ -3,11 +3,9 @@
   width: 100%;
   background-color: #555;
   overflow: auto;
-  position:fixed;
+  position:relative;
   z-index: 1;
-
 }
-
 /* Navigation links */
 .navbar a {
   float: left;
@@ -52,15 +50,16 @@
 
 
 .container {
-  background-color:rgba(12, 105, 12);
+  background-color:rgb(212, 209, 209, 0.05) ;
   position: relative;
   text-align: center;
+
 }
 
 /* Transparent Bottom text */
   .text-block {
     position: absolute; /* Position the background text */
-    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    top: 5%; /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
@@ -140,9 +139,13 @@ position: center;
 
 
 
-
-
-
+section{
+background: url(media/backgrounds/picback/rocks3.jpg)  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
  
  body { 
      background-color: rgba(12, 105, 12);
