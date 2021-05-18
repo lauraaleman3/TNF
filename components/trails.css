@@ -1,0 +1,36 @@
+body {
+    background: url(../media/backgrounds/picback/WBPark1.jpg)  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  background-color: rgba(12, 105, 12);
+  padding: 20px;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    position:fixed;
+   
+  }
+ .button-footer {
+   background-color: red;
+   width:10%;
+   color: white;
+ }
+  .button-footer:hover {
+    background-color: black;
+    color: white;
+  }
+ 
